@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto+Condensed&family=Roboto+Mono&display=swap"
+        rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="/images/unnamed.jpeg">
+    <meta name="description" content="This is my portflio website called Portflio_Dani thanks for visiting">
+
+    <title>Akash</title>
+</head>
+
+<body>
+    <header class="col-0">
+        <nav class="navbar">
+            <ul>
+                <li><img class="img-1" src="images/unnamed.jpeg" alt="error" width="64px" height="64px"></li>
+                <li>
+                    <h4><a class="a-h" href="index.html">Akash</a></h4>
+                </li>
+                <li><a class="col-1" href="#">Home</a></li>
+                <li><a class="col-2" href="#skill">Skill</a></li>
+                <li><a class="col-3" href="#about">About me</a></li>
+                <li><a class="col-4" href="#skill">Todo list</a></li>
+                <li><a class="col-5" href="#contactme">Contact me</a></li>
+                <li><audio class="player" id="paly" class="play" controls autoplay src="music/music dics-1.mp3">Player</audio></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="home col-6 ">
+
+
+        <h2><u class="u1" id="about">Akash</u></h2>
+        <p class="p1" id="About">
+            Hello i am Akash i am 15 year old boy and i am web devloper/designer this is a part of my projects And aslo
+            tell
+            me Who are you / your name? Hello <span class="span-1" id="span-1">---</span>
+        </p>
+        <img class="img-2" src="images/unnamed.jpeg" alt="error">
+        <label for="name" class="lable-1">Your name</label>
+        <input type="text" name="name" id="name" class="input-1">
+        <button type="button" class="bt-1" id="bt-1" onclick="namm()">Add</button>
+        <button type="button" class="bt-2" id="bt-2" onclick="feedback()">Feedback</button>
+        <h2 class="heading_2" id="skill">My Jurnory</h2>
+        <p class="pare_2" id="pare_2">This is a my skill which i learn at 2 years of programming i learn a lot of things
+            and
+            i
+            really enjoy it :)</p>
+
+    </div>
+
+    <div class="skills col-7">
+
+        <img src="images/html-5.png" alt="error" class="img-3 " width="100px">
+        <img src="images/css-3.png" alt="error" class="img-4" width="100px">
+        <img src="images/js.png" alt="error" class="img-5" width="100px">
+        <img src="images/bootstrap-logo-shadow.png" alt="error" class="img-6" width="120px">
+
+    </div>
+
+    <div class="progress col-8" id="progress">
+        <label class="bootstarp" for="bootstarp">bootstarp</label>
+        <progress id="bootstarp" value="100" max="100" class="bootstarp">Bootstarp progress</progress>
+
+        <label class="html" for="html">Html</label>
+        <progress id="html" value="90" max="100" class="html">Html progress</progress>
+
+        <label class="css" for="css">css</label>
+        <progress id="css" value="70" max="100" class="css">css progress</progress>
+
+        <label class="js" for="js">Java script</label>
+        <progress id="js" value="30" max="100" class="js">js progress</progress>
+
+
+
+
+    </div>
+
+    <div class="todo col-9" id="todo">
+
+        <h2 class="Todo_heading">
+            Todo List
+        </h2>
+
+        <label class="list" for="list">List</label>
+        <input autocomplete="off" class="inputbar" id="inputbar" type="text">
+        <button class="add" id="add" onclick="add()">Add</button>
+        <button class="delete" id="delete" onclick="remove()">delete</button>
+        <span class="items">Your Items</span>
+        <img class="img_1" src="images/task.png" alt="error" width="124px">
+        <p class="p">This is simple To do list , A sample projects </p>
+        <h3 class="just_do_it">Just do it</h3>
+
+        <div class="genrate col-10" id="genrate">
+            <ul class="box" id="box">
+
+            </ul>
+        </div>
+
+    </div>
+
+    <h1 class="heading" id="contactme">contact me</h1>
+    <div class="contactme col-11">
+
+        <form action="#">
+
+                <label class="name" for="name">name?</label>
+                <input type="text" class="nammm" placeholder="- - - - " autocomplete="off" id="nammm">
+
+    
+                <label class="emaill" for="email">Email</label>
+                <input type="emali" class="email" id="email" placeholder="@gmail.com">
+
+                <label class="textarea" for="Textbox">Descrpition</label>
+                <textarea autocomplete="off" class="descrpition" name="descrpition" id="descrpition" cols="30" rows="10"
+                    placeholder="What you say me"></textarea>
+
+
+            <img class="img-10 img-2" src="images/unnamed.jpeg" alt="error" height="124px" width="124px">
+            <p class="pr-10 p1">
+                if you want tell me somthing or give me feedback than just comment and post i am reading all your posts
+                and love form me :)
+            </p>
+            <button onclick="post()" class="bt-2 bt-3" id="bt-3">Post</button>
+        </form>
+    </div>
+
+    <footer id="footer">
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
